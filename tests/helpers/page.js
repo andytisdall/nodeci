@@ -48,6 +48,7 @@ class CustomPage {
       return response.json();
     }, path);
   }
+  //
 
   post(path, data) {
     return this.page.evaluate(
